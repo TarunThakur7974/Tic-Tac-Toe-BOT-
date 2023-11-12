@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playGround {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.top {
+  border-top: none;
+}
+
+.bottom {
+  border-bottom: none;
+}
+
+.left {
+  border-left: none;
+}
+
+.right {
+  border-right: none;
+}
+
+li {
+  cursor: pointer;
+  font-size: 6rem;
+  display: flex;
+  list-style: none;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
